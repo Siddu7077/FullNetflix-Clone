@@ -1,0 +1,443 @@
+/* .container {
+position: relative;
+text-align: center;
+color: white;
+} */
+
+.bottom-left {
+    position: absolute;
+    bottom: 1px;
+    left: 506px;
+}
+
+.top-left {
+    position: absolute;
+    top: 1px;
+    left: 150px;
+}
+
+.top-right {
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}
+
+
+.centered {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.sub {
+    color: #fff;
+    font-size:x-large;
+    align-items: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.signin {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:red;
+    border: 0;
+    margin: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: medium;
+}
+
+.img1 {
+
+    padding: 0;
+    border: 0;
+    border-bottom: 7px solid rgb(37, 35, 35);
+}
+input
+{
+    /* background: transparent; */
+    text-emphasis-color: #fff;
+    color: #fff;
+}
+
+
+.main {
+    font-size: 58px;
+    font-family:Times New Roman, Times, serif;
+
+}
+.getstart
+{
+    background-color: red;
+    border: 0;
+    margin: 0;
+    color: #fff;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    border-radius: 5px;
+    padding-right: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-justify:auto;
+    touch-action: cross-slide-x;
+}
+.dropdown
+{
+    position: absolute;
+    top: 25px;
+    right: 300px;
+    color: #fff;
+}
+btn{
+    color: #fff;
+    border: solid #fff;
+}
+svg{
+    color: #fff;
+}
+.English
+{
+    color: #fff;
+}   
+
+
+.form-floating
+{
+    padding-right: 245px;
+    top: 16px;
+}
+.dropdown-item
+{
+    
+    background-color:#232327;
+}
+.dropdown-item:hover
+{
+    
+    background-color: #0821e0;
+}
+#floatingInput
+{
+    background-color: transparent;
+}
+.body
+{
+    background-color: #232327;
+}
+.getstart:hover,.signin:hover
+{
+    background-color: #d90d0d;
+    transition: 30ms;
+}
+.second
+{
+    width: 100%;
+    height: 60vh;
+    background: #000;
+    border-bottom: 7px solid grey;
+}
+.img-2
+{
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+
+}
+.heading-2
+{
+    color: rgb(147, 136, 136);
+    font-size: 50px;
+    padding-top: 130px;
+    float: left;
+    padding-right: 300px;
+    position:relative;
+    padding-left: 60px;
+}
+.para-1
+{
+    color: #fff;
+    margin-right: 250px;
+    padding-top: 200px;
+    padding-right: 10px;
+    margin-left: 610px;
+}
+.third
+{
+    width: 100%;
+    height: 60vh;
+    background: #000;
+    border-bottom: 7px solid grey;
+}
+.vid-1
+{
+    float: right;
+    z-index: 1;
+    position: absolute;
+    right: 260px;
+    top: 1405px;
+    width: 440px;
+}
+.img-3
+{
+    float: right;
+    right: 180px;
+    position: absolute;
+    width: 590px;
+    z-index: 1;
+}
+.heading-3
+{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 130px;
+    float: left;
+    padding-right: 300px;
+    padding-left:100px ;
+    position:relative;
+}
+.para-2
+{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-top: 30px;
+    float: left;
+    padding-right: 300px;
+    padding-left:100px ;
+    position:relative;
+    margin-right: 600px;
+}
+.fourth
+{
+    width: 100%;
+    height: 60vh;
+    background: #000;
+    border-bottom: 7px solid grey;
+}
+.img-4
+{
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+
+}
+.heading-4
+{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 130px;
+    float: left;
+    padding-right: 260px;
+    position:relative;
+    padding-left: 60px;
+    font-family: Poppins, sans-serif;
+}
+.para-3
+{
+    color: #fff;
+    margin-right: 250px;
+    padding-top: 200px;
+    padding-right: 10px;
+    margin-left: 610px;
+}
+.vid-2
+{
+    height: 240px;
+    padding-top: 40px;
+    position: relative;
+    right: 55px;
+}
+.fifth
+{
+    width: 100%;
+    height: 60vh;
+    background: #000;
+    border-bottom: 7px solid rgb(57, 52, 52);
+}
+.heading-5
+{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 130px;
+    float: left;
+    padding-right: 300px;
+    position:relative;
+    padding-left: 80px;
+    margin-bottom: 0px;
+}
+.para-4
+{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    float: left;
+    padding-right: 250px;
+    padding-left:100px ;
+    position:relative;
+    margin-right: 600px;
+}
+.sixth
+{
+    width: 100%;
+    height: 110vh;
+    background: #000;
+    border-bottom: 7px solid rgb(57, 52, 52);
+
+}
+.last
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 60px;
+}
+.q
+{
+    width: 1200px;
+    height: 70px;
+    border: 1px solid grey;
+    margin: 5px;
+    background: rgb(31, 29, 29);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 30px;
+    float: left;
+}
+.qmain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.plus1
+{
+    margin-left: 930px;
+    font-weight: 100;
+    font-size: 70px;
+}
+.plus2
+{
+    margin-left: 782px;
+    font-weight: 100;
+    font-size: 70px;
+}
+.plus3
+{
+    margin-left: 885px;
+    font-weight: 100;
+    font-size: 70px;
+}
+.plus4
+{
+    margin-left: 910px;
+    font-weight: 100;
+    font-size: 70px;
+}
+.plus5
+{
+    margin-left: 790px;
+    font-weight: 100;
+    font-size: 70px;
+}
+.plus6
+{
+    margin-left: 845px;
+    font-weight: 100;
+    font-size: 70px;
+}
+.final
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: larger;
+}
+.finalinput
+{
+    margin-left: 440px;
+}
+.inputlast
+{
+    padding-right: 140px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background:transparent;
+}
+.inputlast::placeholder
+{
+    padding-left: 10px;
+}
+.lastbtn
+{
+    height: 64px;
+    width: 200px;
+    padding-bottom: 10px;
+    background: red;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.finalcont
+{
+    width: 100%;
+    height: 50vh;
+    background: black;
+}
+.foot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    padding-top: 100px;
+    font-family: poppins,sans-serif;
+    font-size: 25px;
+}
+.one:hover
+{
+    background: grey;
+    cursor: pointer;
+}
+.two:hover
+{
+    background: grey;
+    cursor: pointer;
+}
+.three:hover
+{
+    background: grey;
+    cursor: pointer;
+}
+.four:hover
+{
+    background: grey;
+    cursor: pointer;
+}
+.five:hover
+{
+    background: grey;
+    cursor: pointer;
+}
+.six:hover
+{
+    background: grey;
+    cursor: pointer;
+}
