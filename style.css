@@ -462,7 +462,7 @@ svg{
 .footer-column {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between links */
+    gap: 10px;
 }
 
 .footer-link {
